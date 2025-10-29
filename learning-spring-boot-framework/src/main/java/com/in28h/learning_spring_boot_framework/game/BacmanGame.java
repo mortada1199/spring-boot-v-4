@@ -1,6 +1,6 @@
 package com.in28h.learning_spring_boot_framework.game;
 
-public class MarioGame implements GamingConsole{
+public class BacmanGame implements GamingConsole{
 
     public void up(){
         System.out.println("up");

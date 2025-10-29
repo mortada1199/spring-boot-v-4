@@ -4,16 +4,16 @@ public class GameRunner {
 
 
 //MarioGame marioGame;
-SuperContraGame superContraGame;
-    public GameRunner(SuperContraGame superContraGame  ) {
-        this.superContraGame=superContraGame;
+private  GamingConsole gamingConsole;
+    public GameRunner(GamingConsole gamingConsole  ) {
+        this.gamingConsole=gamingConsole;
     }
 
     public void run() {
         System.out.println("run game ");
-        superContraGame.up();
-        superContraGame.right();
-        superContraGame.down();
-        superContraGame.left();
+        gamingConsole.up();
+        gamingConsole.right();
+        gamingConsole.down();
+        gamingConsole.left();
     }
 }
